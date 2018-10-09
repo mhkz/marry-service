@@ -1,11 +1,18 @@
-import {Controller, Get, Res} from "@nestjs/common";
-import {BlessService} from "./bless.service";
+import {Body, Controller, Get, HttpStatus, Post, Res} from "@nestjs/common";
+import { BlessEntity } from "./bless.entity";
+import { BlessService } from "./Bless.service";
 
 @Controller('bless')
-export class BlessController{
-    constructor(private readonly blessService: BlessService){}
+export class BlessController {
+    constructor(private readonly invitationService: BlessService){}
     @Get()
-    getAll(@Res() res) {
-        res.json(this.blessService.getAllBless())
+    async getInvitation ():Promise<BlessEntity[]> {
+        return this.invitationService.getAllBless();
+    }
+
+    @Post()
+    async create(@Res() res, @Body() user: BlessEntity) {
+        await this.invitationService.create(user);
+        res.status(HttpStatus.CREATED).send();
     }
 }

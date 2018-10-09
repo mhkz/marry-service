@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { InvitationController } from './invitation.controller';
 import { InvitationService } from './invitation.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { InvitationEntity } from 'entities/invitation.entity';
+import { InvitationEntity } from 'invitation/invitation.entity';
 @Module({
     imports: [TypeOrmModule.forFeature([InvitationEntity])],
     controllers: [InvitationController],

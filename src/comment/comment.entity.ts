@@ -1,16 +1,16 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinTable } from 'typeorm';
 @Entity()
-export class BlessEntity {
+export class CommentEntity {
     @PrimaryGeneratedColumn()
     id: number
     @Column()
     user_id: number
     @Column()
-    openid: string
+    nickname: string
     @Column()
     face: string
     @Column()
-    nickname: string
+    words: string
     @Column()
-    time: string
+    time: string    
 }
