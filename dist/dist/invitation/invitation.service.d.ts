@@ -1,4 +1,4 @@
-import { InvitationEntity } from 'invitation/invitation.entity';
+import { InvitationEntity } from './invitation.entity';
 import { Repository } from "typeorm";
 export declare class InvitationService {
     private readonly invitationEntityRepository;

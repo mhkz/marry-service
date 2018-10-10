@@ -1,5 +1,5 @@
 import {Body, Controller, Get, HttpStatus, Post, Res} from "@nestjs/common";
-import { InvitationEntity } from "invitation/invitation.entity";
+import { InvitationEntity } from "./invitation.entity";
 import { InvitationService } from "./invitation.service";
 
 @Controller('invitation')

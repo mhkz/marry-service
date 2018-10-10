@@ -1,4 +1,4 @@
-import { InvitationEntity } from "invitation/invitation.entity";
+import { InvitationEntity } from "./invitation.entity";
 import { InvitationService } from "./invitation.service";
 export declare class InvitationController {
     private readonly invitationService;

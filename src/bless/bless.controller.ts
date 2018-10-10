@@ -1,6 +1,6 @@
 import {Body, Controller, Get, HttpStatus, Post, Res} from "@nestjs/common";
 import { BlessEntity } from "./bless.entity";
-import { BlessService } from "./Bless.service";
+import { BlessService } from "./bless.service";
 
 @Controller('bless')
 export class BlessController {

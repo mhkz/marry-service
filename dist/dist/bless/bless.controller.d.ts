@@ -1,5 +1,5 @@
 import { BlessEntity } from "./bless.entity";
-import { BlessService } from "./Bless.service";
+import { BlessService } from "./bless.service";
 export declare class BlessController {
     private readonly invitationService;
     constructor(invitationService: BlessService);
