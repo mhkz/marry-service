@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/main.hmr.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecosystem.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -69,14 +49,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="78" />
+          <entry key="json" value="94" />
           <entry key="ts" value="1044" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="78" />
+          <entry key="JSON" value="94" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1044" />
         </counts>
@@ -106,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecosystem.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="244">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -312,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14298000" />
+    <option name="totallyTimeSpent" value="14660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,8 +307,8 @@
     <frame x="-158" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992272" visible="true" weight="0.178515" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5007728" side_tool="true" visible="true" weight="0.178515" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.178515" />
+      <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" visible="true" weight="0.178515" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.178515" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,10 +319,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49763033" weight="0.53782386" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.32953367" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49710375" visible="true" weight="0.53782386" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50289625" side_tool="true" visible="true" weight="0.53782386" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49921012" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49921012" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -622,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecosystem.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="244">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
