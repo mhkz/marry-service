@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "marry",
-    "script": "npm run start",
+    "script": "npm -- run start",
     //"instances": 2 服务器核心数配置
     "env": {
       "COMMON_VARIABLE": "true"
