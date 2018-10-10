@@ -16,7 +16,7 @@
       "host": ["47.95.7.29"],
       "port": "22",
       "ref": "origin/master",
-      "repo": "https://github.com/mhkz/project.git",
+      "repo": "https://github.com/mhkz/marry-service.git",
       "path": "/www/marry/production",
       "ssh_options": "StrictHostKeyChecking=no",
       //			"post-deploy": "npm install"

@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.entity.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.entity.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bless/bless.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.entity.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.entity.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/comment/comment.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.entity.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.entity.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/invitation/invitation.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.hmr.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.hmr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.hmr.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/photo/photo.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecosystem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comment/comment.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comment/comment.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photo/photo.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photo/photo.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photo/photo.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bless/bless.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bless/bless.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bless/bless.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bless/bless.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bless/bless.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bless/bless.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bless/bless.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bless/bless.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comment/comment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comment/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comment/conmment.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo/photo.controller.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/invitation.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/invitation/invitation.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/invitation/invitation.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecosystem.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -155,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecosystem.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="213">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -172,13 +92,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="208">
               <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ormconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -227,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/app.module.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.module.ts" />
-        <option value="$PROJECT_DIR$/ecosystem.json" />
         <option value="$PROJECT_DIR$/ormconfig.json" />
+        <option value="$PROJECT_DIR$/ecosystem.json" />
       </list>
     </option>
   </component>
@@ -331,7 +251,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10179000" />
+    <option name="totallyTimeSpent" value="10564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-158" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -562,24 +482,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ormconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="208">
           <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecosystem.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ormconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="213">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
