@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "marry",
-    "script": "pm2 start dist/server.js",
+    "script": "dist/server.js",
     //"instances": 2 服务器核心数配置
     "env": {
       "COMMON_VARIABLE": "true"
