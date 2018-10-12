@@ -1,4 +1,4 @@
-import {Body, Controller, Get, HttpStatus, Post, Res} from "@nestjs/common";
+import { Body, Controller, Get, HttpStatus, Post, Req, Res } from '@nestjs/common';
 import { InvitationEntity } from "./invitation.entity";
 import { InvitationService } from "./invitation.service";
 import { BlessService } from '../bless/bless.service'
@@ -10,7 +10,8 @@ export class InvitationController {
                 private readonly blessService: BlessService,
                 private readonly commentService: CommentService){}
     @Get()
-    async getInvitation () {
+    async getInvitation (@Req() req, @Res() res) {
+      console.log("-------", req, res)
         let wxInfo = {
           mainInfo: {},
           zanLog: [],

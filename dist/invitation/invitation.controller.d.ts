@@ -7,7 +7,7 @@ export declare class InvitationController {
     private readonly blessService;
     private readonly commentService;
     constructor(invitationService: InvitationService, blessService: BlessService, commentService: CommentService);
-    getInvitation(): Promise<{
+    getInvitation(req: any, res: any): Promise<{
         mainInfo: {};
         zanLog: any[];
         zanNum: number;

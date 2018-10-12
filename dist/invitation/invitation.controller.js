@@ -31,8 +31,9 @@ let InvitationController = class InvitationController {
         this.blessService = blessService;
         this.commentService = commentService;
     }
-    getInvitation() {
+    getInvitation(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
+            console.log("-------", req, res);
             let wxInfo = {
                 mainInfo: {},
                 zanLog: [],
@@ -64,8 +65,9 @@ let InvitationController = class InvitationController {
 };
 __decorate([
     common_1.Get(),
+    __param(0, common_1.Req()), __param(1, common_1.Res()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
 ], InvitationController.prototype, "getInvitation", null);
 __decorate([

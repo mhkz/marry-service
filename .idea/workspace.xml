@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/app.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/bless/bless.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/comment/comment.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/invitation/invitation.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/main.hmr.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist/photo/photo.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecosystem.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comment/comment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/invitation/invitation.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,7 +33,7 @@
           <entry key="js" value="7" />
           <entry key="json" value="10" />
           <entry key="md" value="2" />
-          <entry key="ts" value="96" />
+          <entry key="ts" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,7 +41,7 @@
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="TypeScript" value="96" />
+          <entry key="TypeScript" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -77,7 +52,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="2108" />
+          <entry key="ts" value="2161" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -85,7 +60,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="2108" />
+          <entry key="TypeScript" value="2161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -96,6 +71,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comment/comment.service.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,23 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comment/comment.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="468">
               <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/invitation/invitation.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="23" column="66" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +212,8 @@
         <option value="$PROJECT_DIR$/ecosystem.json" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.service.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.module.ts" />
-        <option value="$PROJECT_DIR$/src/invitation/invitation.controller.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
+        <option value="$PROJECT_DIR$/src/invitation/invitation.controller.ts" />
       </list>
     </option>
   </component>
@@ -350,7 +325,7 @@
       <workItem from="1539073054452" duration="89000" />
       <workItem from="1539211853491" duration="6913000" />
       <workItem from="1539251217009" duration="167000" />
-      <workItem from="1539254940000" duration="616000" />
+      <workItem from="1539254940000" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -363,7 +338,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26378000" />
+    <option name="totallyTimeSpent" value="27576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +353,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.25792813" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.25792813" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.178515" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.178515" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,7 +364,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.48192772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.48192772" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28554216" />
@@ -531,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bless/bless.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -630,8 +595,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comment/comment.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="468">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
