@@ -33,7 +33,7 @@ let InvitationController = class InvitationController {
     }
     getInvitation(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log("-------", req, res);
+            console.log("-------", req.query);
             let wxInfo = {
                 mainInfo: {},
                 zanLog: [],

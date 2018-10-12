@@ -11,7 +11,7 @@ export class InvitationController {
                 private readonly commentService: CommentService){}
     @Get()
     async getInvitation (@Req() req, @Res() res) {
-      console.log("-------", req, res)
+      console.log("-------", req.query)
         let wxInfo = {
           mainInfo: {},
           zanLog: [],

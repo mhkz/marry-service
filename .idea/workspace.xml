@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="2161" />
+          <entry key="ts" value="2169" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -60,7 +60,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="2161" />
+          <entry key="TypeScript" value="2169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -75,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="e#0#76#0" expanded="true" />
               </folding>
@@ -325,7 +325,7 @@
       <workItem from="1539073054452" duration="89000" />
       <workItem from="1539211853491" duration="6913000" />
       <workItem from="1539251217009" duration="167000" />
-      <workItem from="1539254940000" duration="1814000" />
+      <workItem from="1539254940000" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -338,7 +338,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27576000" />
+    <option name="totallyTimeSpent" value="27780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="e#0#76#0" expanded="true" />
           </folding>
