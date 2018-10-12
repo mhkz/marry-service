@@ -15,6 +15,6 @@ export declare class InvitationController {
         music_url: string;
         chatList: any[];
         chatNum: number;
-    } | "赞成功" | "评论成功">;
+    }>;
     create(res: any, user: InvitationEntity): Promise<void>;
 }

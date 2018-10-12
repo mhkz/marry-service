@@ -35,26 +35,26 @@ let InvitationController = class InvitationController {
     getInvitation(req) {
         return __awaiter(this, void 0, void 0, function* () {
             var reqInfo = req.query;
+            let wxInfo = {
+                mainInfo: {},
+                zanLog: [],
+                zanNum: 0,
+                slideList: [],
+                music_url: '',
+                chatList: [],
+                chatNum: 0
+            };
+            var indexInfo = yield this.invitationService.getAllUser();
+            var bless = yield this.blessService.getAllBless();
+            var comment = yield this.commentService.getAllComment();
+            wxInfo.mainInfo = indexInfo[0];
+            wxInfo.zanLog = bless;
+            wxInfo.zanNum = bless.length;
+            wxInfo.slideList = [];
+            wxInfo.music_url = indexInfo[0].music;
+            wxInfo.chatList = comment;
+            wxInfo.chatNum = comment.length;
             if (reqInfo.c == 'info') {
-                let wxInfo = {
-                    mainInfo: {},
-                    zanLog: [],
-                    zanNum: 0,
-                    slideList: [],
-                    music_url: '',
-                    chatList: [],
-                    chatNum: 0
-                };
-                var indexInfo = yield this.invitationService.getAllUser();
-                var bless = yield this.blessService.getAllBless();
-                var comment = yield this.commentService.getAllComment();
-                wxInfo.mainInfo = indexInfo[0];
-                wxInfo.zanLog = bless;
-                wxInfo.zanNum = bless.length;
-                wxInfo.slideList = [];
-                wxInfo.music_url = indexInfo[0].music;
-                wxInfo.chatList = comment;
-                wxInfo.chatNum = comment.length;
                 return wxInfo;
             }
             else if (reqInfo.c == 'zan') {
@@ -67,7 +67,7 @@ let InvitationController = class InvitationController {
                     time: new dateUtils_1.DateUtils().showTime()
                 };
                 yield this.blessService.create(zanInfo);
-                return '赞成功';
+                return wxInfo;
             }
             else if (reqInfo.c == 'send') {
                 var comm = {
@@ -79,7 +79,7 @@ let InvitationController = class InvitationController {
                     time: new dateUtils_1.DateUtils().showTime()
                 };
                 yield this.commentService.create(comm);
-                return '评论成功';
+                return wxInfo;
             }
         });
     }
