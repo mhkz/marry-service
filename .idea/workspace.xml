@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/dateUtils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/invitation/invitation.controller.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -57,7 +52,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="2856" />
+          <entry key="ts" value="2919" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -65,7 +60,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="2856" />
+          <entry key="TypeScript" value="2919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,11 +74,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
-                <element signature="e#759#916#0" />
               </folding>
             </state>
           </provider>
@@ -310,7 +304,7 @@
       <workItem from="1539211853491" duration="6913000" />
       <workItem from="1539251217009" duration="167000" />
       <workItem from="1539254940000" duration="4427000" />
-      <workItem from="1539315376456" duration="2780000" />
+      <workItem from="1539315376456" duration="3326000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -323,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32969000" />
+    <option name="totallyTimeSpent" value="33515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,7 +343,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.35277778" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.1875" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -598,11 +592,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
-            <element signature="e#759#916#0" />
           </folding>
         </state>
       </provider>

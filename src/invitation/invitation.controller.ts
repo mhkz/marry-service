@@ -36,7 +36,7 @@ export class InvitationController {
         return wxInfo;
       } else if (reqInfo.c == 'zan') {
         var zanInfo = {
-          id: new Date().getTime(),
+          id: (await this.blessService.getAllBless()).length + 1,
           user_id: 7,
           openid: 'null',
           face: reqInfo.face,
@@ -47,7 +47,7 @@ export class InvitationController {
         return '赞成功'
       } else if (reqInfo.c == 'send') {
         var comm = {
-          id: new Date().getTime(),
+          id: (await this.commentService.getAllComment()).length + 1,
           user_id: 7,
           face: reqInfo.face,
           nickname: reqInfo.nickname,
