@@ -7,7 +7,7 @@ export declare class InvitationController {
     private readonly blessService;
     private readonly commentService;
     constructor(invitationService: InvitationService, blessService: BlessService, commentService: CommentService);
-    getInvitation(req: any, res: any): Promise<{
+    getInvitation(req: any): Promise<{
         mainInfo: {};
         zanLog: any[];
         zanNum: number;
@@ -15,6 +15,6 @@ export declare class InvitationController {
         music_url: string;
         chatList: any[];
         chatNum: number;
-    }>;
+    } | "赞成功" | "评论成功">;
     create(res: any, user: InvitationEntity): Promise<void>;
 }

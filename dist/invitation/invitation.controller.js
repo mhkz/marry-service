@@ -25,35 +25,62 @@ const invitation_entity_1 = require("./invitation.entity");
 const invitation_service_1 = require("./invitation.service");
 const bless_service_1 = require("../bless/bless.service");
 const comment_service_1 = require("../comment/comment.service");
+const dateUtils_1 = require("../utils/dateUtils");
 let InvitationController = class InvitationController {
     constructor(invitationService, blessService, commentService) {
         this.invitationService = invitationService;
         this.blessService = blessService;
         this.commentService = commentService;
     }
-    getInvitation(req, res) {
+    getInvitation(req) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log("-------", req.query);
-            let wxInfo = {
-                mainInfo: {},
-                zanLog: [],
-                zanNum: 0,
-                slideList: [],
-                music_url: '',
-                chatList: [],
-                chatNum: 0
-            };
-            var indexInfo = yield this.invitationService.getAllUser();
-            var bless = yield this.blessService.getAllBless();
-            var comment = yield this.commentService.getAllComment();
-            wxInfo.mainInfo = indexInfo[0];
-            wxInfo.zanLog = bless;
-            wxInfo.zanNum = bless.length;
-            wxInfo.slideList = [];
-            wxInfo.music_url = '';
-            wxInfo.chatList = comment;
-            wxInfo.chatNum = comment.length;
-            return wxInfo;
+            var reqInfo = req.query;
+            if (reqInfo.c == 'info') {
+                let wxInfo = {
+                    mainInfo: {},
+                    zanLog: [],
+                    zanNum: 0,
+                    slideList: [],
+                    music_url: '',
+                    chatList: [],
+                    chatNum: 0
+                };
+                var indexInfo = yield this.invitationService.getAllUser();
+                var bless = yield this.blessService.getAllBless();
+                var comment = yield this.commentService.getAllComment();
+                wxInfo.mainInfo = indexInfo[0];
+                wxInfo.zanLog = bless;
+                wxInfo.zanNum = bless.length;
+                wxInfo.slideList = [];
+                wxInfo.music_url = '';
+                wxInfo.chatList = comment;
+                wxInfo.chatNum = comment.length;
+                return wxInfo;
+            }
+            else if (reqInfo.c == 'zan') {
+                var zanInfo = {
+                    id: new Date().getTime(),
+                    user_id: 7,
+                    openid: 'null',
+                    face: reqInfo.face,
+                    nickname: reqInfo.nickname,
+                    time: new dateUtils_1.DateUtils().showTime()
+                };
+                yield this.blessService.create(zanInfo);
+                return '赞成功';
+            }
+            else if (reqInfo.c == 'send') {
+                var comm = {
+                    id: new Date().getTime(),
+                    user_id: 7,
+                    face: reqInfo.face,
+                    nickname: reqInfo.nickname,
+                    words: reqInfo.words,
+                    time: new dateUtils_1.DateUtils().showTime()
+                };
+                yield this.commentService.create(comm);
+                return '评论成功';
+            }
         });
     }
     create(res, user) {
@@ -65,9 +92,9 @@ let InvitationController = class InvitationController {
 };
 __decorate([
     common_1.Get(),
-    __param(0, common_1.Req()), __param(1, common_1.Res()),
+    __param(0, common_1.Req()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], InvitationController.prototype, "getInvitation", null);
 __decorate([
