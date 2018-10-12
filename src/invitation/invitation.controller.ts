@@ -30,7 +30,7 @@ export class InvitationController {
         wxInfo.zanLog = bless;
         wxInfo.zanNum = bless.length;
         wxInfo.slideList = [];
-        wxInfo.music_url = '';
+        wxInfo.music_url = indexInfo[0].music;
         wxInfo.chatList = comment;
         wxInfo.chatNum = comment.length;
         return wxInfo;
