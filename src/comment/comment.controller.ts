@@ -12,6 +12,14 @@ export class CommentController {
 
     @Post()
     async create(@Res() res, @Body() user: CommentEntity) {
+        var result = {
+          id: '',
+          userId: 7,
+          nickname: user.nickname,
+          face: user.face,
+          words: user.words,
+          time: new Date().getTime()
+        }
         await this.invitationService.create(user);
         res.status(HttpStatus.CREATED).send();
     }
