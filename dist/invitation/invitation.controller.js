@@ -84,7 +84,12 @@ let InvitationController = class InvitationController {
                     time: new dateUtils_1.DateUtils().showTime()
                 };
                 yield this.commentService.create(comm);
-                return '';
+                var comment = yield this.commentService.getAllComment();
+                return {
+                    chatList: comment,
+                    chatNum: comment.length,
+                    content: '已经收到您的祝福哟～'
+                };
             }
         });
     }

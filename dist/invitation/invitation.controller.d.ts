@@ -7,7 +7,7 @@ export declare class InvitationController {
     private readonly blessService;
     private readonly commentService;
     constructor(invitationService: InvitationService, blessService: BlessService, commentService: CommentService);
-    getInvitation(req: any): Promise<"" | {
+    getInvitation(req: any): Promise<{
         mainInfo: {};
         zanLog: any[];
         zanNum: number;
@@ -19,6 +19,16 @@ export declare class InvitationController {
         zanLog: import("../bless/bless.entity").BlessEntity[];
         zanNum: number;
         msg: string;
+        chatList?: undefined;
+        chatNum?: undefined;
+        content?: undefined;
+    } | {
+        chatList: import("../comment/comment.entity").CommentEntity[];
+        chatNum: number;
+        content: string;
+        zanLog?: undefined;
+        zanNum?: undefined;
+        msg?: undefined;
     }>;
     create(res: any, user: InvitationEntity): Promise<void>;
 }

@@ -61,7 +61,12 @@ export class InvitationController {
           time: new DateUtils().showTime()
         }
         await this.commentService.create(comm);
-        return '';
+        var comment = await this.commentService.getAllComment();
+        return {
+          chatList: comment,
+          chatNum: comment.length,
+          content: '已经收到您的祝福哟～'
+        };
       }
     }
 
