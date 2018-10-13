@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" afterDir="false" />
-    </list>
+    <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="605">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
@@ -312,7 +310,7 @@
       <workItem from="1539251217009" duration="167000" />
       <workItem from="1539254940000" duration="4427000" />
       <workItem from="1539315376456" duration="3700000" />
-      <workItem from="1539340011004" duration="1163000" />
+      <workItem from="1539340011004" duration="1847000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -325,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35052000" />
+    <option name="totallyTimeSpent" value="35736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +349,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.3013889" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.2736111" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -536,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="605">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
           </folding>
