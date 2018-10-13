@@ -88,7 +88,7 @@ let InvitationController = class InvitationController {
                 return {
                     chatList: comment,
                     chatNum: comment.length,
-                    content: '已经收到您的祝福哟～'
+                    msg: '已经收到您的祝福哟～'
                 };
             }
         });

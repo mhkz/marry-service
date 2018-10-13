@@ -21,14 +21,12 @@ export declare class InvitationController {
         msg: string;
         chatList?: undefined;
         chatNum?: undefined;
-        content?: undefined;
     } | {
         chatList: import("../comment/comment.entity").CommentEntity[];
         chatNum: number;
-        content: string;
+        msg: string;
         zanLog?: undefined;
         zanNum?: undefined;
-        msg?: undefined;
     }>;
     create(res: any, user: InvitationEntity): Promise<void>;
 }
