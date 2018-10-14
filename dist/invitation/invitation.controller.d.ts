@@ -8,8 +8,8 @@ export declare class InvitationController {
     private readonly commentService;
     constructor(invitationService: InvitationService, blessService: BlessService, commentService: CommentService);
     getInvitation(req: any): Promise<{
-        mainInfo: any;
-        music_url: any;
+        mainInfo: InvitationEntity;
+        music_url: string;
     }>;
     create(res: any, user: InvitationEntity): Promise<void>;
 }
