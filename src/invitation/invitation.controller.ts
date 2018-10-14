@@ -12,7 +12,11 @@ export class InvitationController {
                 private readonly commentService: CommentService){}
     @Get()
     async getInvitation (@Req() req) {
-      return await this.invitationService.getAllUser();
+      var invitationInfo = await this.invitationService.getAllUser()[0];
+      return {
+        mainInfo: invitationInfo,
+        music_url: invitationInfo.music
+      }
       // var reqInfo = req.query;
       // if (reqInfo.c == 'info') {
       //   let wxInfo = {

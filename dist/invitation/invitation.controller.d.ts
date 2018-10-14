@@ -7,6 +7,9 @@ export declare class InvitationController {
     private readonly blessService;
     private readonly commentService;
     constructor(invitationService: InvitationService, blessService: BlessService, commentService: CommentService);
-    getInvitation(req: any): Promise<InvitationEntity[]>;
+    getInvitation(req: any): Promise<{
+        mainInfo: any;
+        music_url: any;
+    }>;
     create(res: any, user: InvitationEntity): Promise<void>;
 }

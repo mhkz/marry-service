@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/comment/comment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comment/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/invitation/invitation.controller.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -36,7 +34,7 @@
           <entry key="js" value="8" />
           <entry key="json" value="10" />
           <entry key="md" value="2" />
-          <entry key="ts" value="101" />
+          <entry key="ts" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,7 +42,7 @@
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="TypeScript" value="101" />
+          <entry key="TypeScript" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -55,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="3312" />
+          <entry key="ts" value="3432" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -63,7 +61,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="3312" />
+          <entry key="TypeScript" value="3432" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -77,10 +75,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="164">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/invitation/invitation.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,11 +137,11 @@
         <option value="$PROJECT_DIR$/src/bless/bless.controller.ts" />
         <option value="$PROJECT_DIR$/src/app.service.ts" />
         <option value="$PROJECT_DIR$/ecosystem.json" />
-        <option value="$PROJECT_DIR$/src/invitation/invitation.service.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.module.ts" />
         <option value="$PROJECT_DIR$/src/utils/dateUtils.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.service.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
+        <option value="$PROJECT_DIR$/src/invitation/invitation.service.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.controller.ts" />
       </list>
     </option>
@@ -173,6 +183,12 @@
               <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="marry-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bless" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
@@ -228,7 +244,7 @@
       <workItem from="1539251217009" duration="167000" />
       <workItem from="1539254940000" duration="4427000" />
       <workItem from="1539315376456" duration="3700000" />
-      <workItem from="1539340011004" duration="3859000" />
+      <workItem from="1539340011004" duration="5165000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -241,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37748000" />
+    <option name="totallyTimeSpent" value="39054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,7 +272,7 @@
     <frame x="52" y="23" width="1335" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.178515" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.178515" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +283,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.27513966" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.27513966" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -409,16 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nest-cli.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -520,10 +526,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="164">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
           </folding>

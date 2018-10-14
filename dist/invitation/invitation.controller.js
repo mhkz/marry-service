@@ -33,7 +33,11 @@ let InvitationController = class InvitationController {
     }
     getInvitation(req) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.invitationService.getAllUser();
+            var invitationInfo = yield this.invitationService.getAllUser()[0];
+            return {
+                mainInfo: invitationInfo,
+                music_url: invitationInfo.music
+            };
         });
     }
     create(res, user) {
