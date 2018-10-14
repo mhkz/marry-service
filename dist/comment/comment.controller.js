@@ -27,9 +27,9 @@ let CommentController = class CommentController {
     constructor(invitationService) {
         this.invitationService = invitationService;
     }
-    getInvitation() {
+    getComment(req) {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.invitationService.getAllComment();
+            return '';
         });
     }
     create(res, user) {
@@ -49,10 +49,11 @@ let CommentController = class CommentController {
 };
 __decorate([
     common_1.Get(),
+    __param(0, common_1.Req()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
-], CommentController.prototype, "getInvitation", null);
+], CommentController.prototype, "getComment", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Res()), __param(1, common_1.Body()),

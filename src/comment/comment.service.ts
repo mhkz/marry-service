@@ -13,11 +13,10 @@ export class CommentService{
     async getAllComment(): Promise<CommentEntity[]> {
         return this.commentEntityRepository.find({})
     }
-
     /**
      * 插入微信用户消息
      */
-    async create(user: CommentEntity): Promise<[string]> {
+    async create(user: CommentEntity) {
         let insertUserInfo = new CommentEntity()
         insertUserInfo = user;
         return this.commentEntityRepository.save(insertUserInfo)

@@ -1,4 +1,4 @@
-import {Body, Controller, Get, HttpStatus, Post, Res} from "@nestjs/common";
+import { Body, Controller, Get, HttpStatus, Post, Req, Res } from '@nestjs/common';
 import { CommentEntity } from "./comment.entity";
 import { CommentService } from "./comment.service";
 
@@ -6,8 +6,8 @@ import { CommentService } from "./comment.service";
 export class CommentController {
     constructor(private readonly invitationService: CommentService){}
     @Get()
-    async getInvitation ():Promise<CommentEntity[]> {
-        return this.invitationService.getAllComment();
+    async getComment (@Req() req) {
+      return '';
     }
 
     @Post()

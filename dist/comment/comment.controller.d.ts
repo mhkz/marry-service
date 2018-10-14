@@ -3,6 +3,6 @@ import { CommentService } from "./comment.service";
 export declare class CommentController {
     private readonly invitationService;
     constructor(invitationService: CommentService);
-    getInvitation(): Promise<CommentEntity[]>;
+    getComment(req: any): Promise<string>;
     create(res: any, user: CommentEntity): Promise<void>;
 }
