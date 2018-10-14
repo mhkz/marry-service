@@ -23,6 +23,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const comment_entity_1 = require("./comment.entity");
 const comment_service_1 = require("./comment.service");
+const dateUtils_1 = require("../utils/dateUtils");
 let CommentController = class CommentController {
     constructor(commentService) {
         this.commentService = commentService;
@@ -40,18 +41,20 @@ let CommentController = class CommentController {
             return;
         });
     }
-    create(res, user) {
+    create(res, commentInfo) {
         return __awaiter(this, void 0, void 0, function* () {
-            var result = {
-                id: '',
-                userId: 7,
-                nickname: user.nickname,
-                face: user.face,
-                words: user.words,
-                time: new Date().getTime()
+            let result = yield this.commentService.getAllComment();
+            let comm = {
+                id: result.length + 1,
+                user_id: 7,
+                face: commentInfo.face,
+                nickname: commentInfo.nickname,
+                words: commentInfo.words,
+                time: new dateUtils_1.DateUtils().showTime()
             };
-            yield this.commentService.create(user);
-            res.status(common_1.HttpStatus.CREATED).send();
+            yield this.commentService.create(comm);
+            result.push(comm);
+            res.status(common_1.HttpStatus.CREATED).send(result);
         });
     }
 };

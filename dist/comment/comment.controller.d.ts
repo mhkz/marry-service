@@ -7,5 +7,5 @@ export declare class CommentController {
         chatList: CommentEntity[];
         chatNum: number;
     }>;
-    create(res: any, user: CommentEntity): Promise<void>;
+    create(res: any, commentInfo: CommentEntity): Promise<void>;
 }

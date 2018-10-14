@@ -33,10 +33,10 @@ let CommentService = class CommentService {
             return this.commentEntityRepository.find({});
         });
     }
-    create(user) {
+    create(insertInfo) {
         return __awaiter(this, void 0, void 0, function* () {
             let insertUserInfo = new comment_entity_1.CommentEntity();
-            insertUserInfo = user;
+            insertUserInfo = insertInfo;
             return this.commentEntityRepository.save(insertUserInfo)
                 .then(res => {
                 return '成功插入微信消息';

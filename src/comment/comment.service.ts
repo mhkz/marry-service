@@ -16,9 +16,9 @@ export class CommentService{
     /**
      * 插入微信用户消息
      */
-    async create(user: CommentEntity) {
+    async create(insertInfo: CommentEntity) {
         let insertUserInfo = new CommentEntity()
-        insertUserInfo = user;
+        insertUserInfo = insertInfo;
         return this.commentEntityRepository.save(insertUserInfo)
             .then(res => {
                 return '成功插入微信消息'

@@ -4,5 +4,5 @@ export declare class CommentService {
     private readonly commentEntityRepository;
     constructor(commentEntityRepository: Repository<CommentEntity>);
     getAllComment(): Promise<CommentEntity[]>;
-    create(user: CommentEntity): Promise<any>;
+    create(insertInfo: CommentEntity): Promise<any>;
 }

@@ -1,6 +1,7 @@
 import { Body, Controller, Get, HttpStatus, Post, Req, Res } from '@nestjs/common';
 import { CommentEntity } from "./comment.entity";
 import { CommentService } from "./comment.service";
+import { DateUtils } from '../utils/dateUtils';
 
 @Controller('comment')
 export class CommentController {
@@ -20,16 +21,18 @@ export class CommentController {
     }
 
     @Post()
-    async create(@Res() res, @Body() user: CommentEntity) {
-        var result = {
-          id: '',
-          userId: 7,
-          nickname: user.nickname,
-          face: user.face,
-          words: user.words,
-          time: new Date().getTime()
-        }
-        await this.commentService.create(user);
-        res.status(HttpStatus.CREATED).send();
+    async create(@Res() res, @Body() commentInfo: CommentEntity) {
+        let result = await this.commentService.getAllComment();
+        let comm = {
+            id: result.length + 1,
+            user_id: 7,
+            face: commentInfo.face,
+            nickname: commentInfo.nickname,
+            words: commentInfo.words,
+            time: new DateUtils().showTime()
+          }
+          await this.commentService.create(comm);
+          result.push(comm)
+         res.status(HttpStatus.CREATED).send(result);
     }
 }

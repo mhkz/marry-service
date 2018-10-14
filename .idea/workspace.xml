@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/comment/comment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comment/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/comment/comment.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,7 +35,7 @@
           <entry key="js" value="8" />
           <entry key="json" value="10" />
           <entry key="md" value="2" />
-          <entry key="ts" value="103" />
+          <entry key="ts" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -42,7 +43,7 @@
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="TypeScript" value="103" />
+          <entry key="TypeScript" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -53,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="3585" />
+          <entry key="ts" value="3778" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -61,7 +62,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="3585" />
+          <entry key="TypeScript" value="3778" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="68" column="67" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="68" selection-end-column="67" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
@@ -99,11 +100,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comment/comment.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="294">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comment/comment.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comment/comment.entity.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -151,9 +173,9 @@
         <option value="$PROJECT_DIR$/ecosystem.json" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.module.ts" />
         <option value="$PROJECT_DIR$/src/utils/dateUtils.ts" />
-        <option value="$PROJECT_DIR$/src/comment/comment.service.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.service.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.controller.ts" />
+        <option value="$PROJECT_DIR$/src/comment/comment.service.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
       </list>
     </option>
@@ -250,7 +272,7 @@
       <workItem from="1539251217009" duration="167000" />
       <workItem from="1539254940000" duration="4427000" />
       <workItem from="1539315376456" duration="3700000" />
-      <workItem from="1539340011004" duration="6221000" />
+      <workItem from="1539340011004" duration="7229000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -263,7 +285,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40110000" />
+    <option name="totallyTimeSpent" value="41118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,7 +300,7 @@
     <frame x="52" y="23" width="1335" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.178515" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.178515" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +311,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.27513966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.27513966" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -498,27 +520,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comment/comment.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/comment/comment.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comment/comment.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="156">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comment/comment.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="279">
+          <caret line="68" column="67" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="68" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,20 +554,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
+    <entry file="file://$PROJECT_DIR$/src/comment/comment.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="91">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#0#83#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comment/comment.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="294">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
           </folding>
