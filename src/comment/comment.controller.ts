@@ -8,16 +8,11 @@ export class CommentController {
     constructor(private readonly commentService: CommentService){}
     @Get()
     async getComment (@Req() req) {
-      var queryInfo = req.query
-      if (queryInfo.c == 'info') {
-        var zanLog = await this.commentService.getAllComment();
-        return {
-          chatList: zanLog,
-          chatNum: zanLog.length
-        }
+      var zanLog = await this.commentService.getAllComment();
+      return {
+        chatList: zanLog,
+        chatNum: zanLog.length
       }
-
-      return ;
     }
 
     @Post()
@@ -33,10 +28,10 @@ export class CommentController {
           }
           await this.commentService.create(comm);
           result.push(comm)
-         res.status(HttpStatus.CREATED).send({
-           chatList: result,
-           chatNum: result.length,
-           msg: '已经收到您的祝福哟～'
+          res.status(HttpStatus.CREATED).send({
+              chatList: result,
+              chatNum: result.length,
+              msg: '已经收到您的祝福哟～'
          });
     }
 }

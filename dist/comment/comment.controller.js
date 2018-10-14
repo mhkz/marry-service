@@ -30,15 +30,11 @@ let CommentController = class CommentController {
     }
     getComment(req) {
         return __awaiter(this, void 0, void 0, function* () {
-            var queryInfo = req.query;
-            if (queryInfo.c == 'info') {
-                var zanLog = yield this.commentService.getAllComment();
-                return {
-                    chatList: zanLog,
-                    chatNum: zanLog.length
-                };
-            }
-            return;
+            var zanLog = yield this.commentService.getAllComment();
+            return {
+                chatList: zanLog,
+                chatNum: zanLog.length
+            };
         });
     }
     create(res, commentInfo) {

@@ -1,8 +1,11 @@
 import { BlessEntity } from "./bless.entity";
 import { BlessService } from "./bless.service";
 export declare class BlessController {
-    private readonly invitationService;
-    constructor(invitationService: BlessService);
-    getInvitation(): Promise<BlessEntity[]>;
-    create(res: any, user: BlessEntity): Promise<void>;
+    private readonly blessService;
+    constructor(blessService: BlessService);
+    getInvitation(): Promise<{
+        zanLog: BlessEntity[];
+        zanNum: number;
+    }>;
+    create(res: any, blessInfo: BlessEntity): Promise<void>;
 }

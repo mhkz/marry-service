@@ -23,19 +23,38 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const bless_entity_1 = require("./bless.entity");
 const bless_service_1 = require("./bless.service");
+const dateUtils_1 = require("../utils/dateUtils");
 let BlessController = class BlessController {
-    constructor(invitationService) {
-        this.invitationService = invitationService;
+    constructor(blessService) {
+        this.blessService = blessService;
     }
     getInvitation() {
         return __awaiter(this, void 0, void 0, function* () {
-            return this.invitationService.getAllBless();
+            var zanLogList = yield this.blessService.getAllBless();
+            return {
+                zanLog: zanLogList,
+                zanNum: zanLogList.length,
+            };
         });
     }
-    create(res, user) {
+    create(res, blessInfo) {
         return __awaiter(this, void 0, void 0, function* () {
-            yield this.invitationService.create(user);
-            res.status(common_1.HttpStatus.CREATED).send();
+            let result = yield this.blessService.getAllBless();
+            let zanInfo = {
+                id: result.length + 1,
+                user_id: 7,
+                openid: 'null',
+                face: blessInfo.face,
+                nickname: blessInfo.nickname,
+                time: new dateUtils_1.DateUtils().showTime()
+            };
+            yield this.blessService.create(zanInfo);
+            result.push(zanInfo);
+            res.status(common_1.HttpStatus.CREATED).send({
+                chatList: result,
+                chatNum: result.length,
+                msg: '已经收到您的祝福哟～'
+            });
         });
     }
 };
