@@ -51,8 +51,8 @@ let BlessController = class BlessController {
             yield this.blessService.create(zanInfo);
             result.push(zanInfo);
             res.status(common_1.HttpStatus.CREATED).send({
-                chatList: result,
-                chatNum: result.length,
+                zanLog: result,
+                zanNum: result.length,
                 msg: '已经收到您的祝福哟～'
             });
         });
