@@ -24,12 +24,20 @@ const common_1 = require("@nestjs/common");
 const comment_entity_1 = require("./comment.entity");
 const comment_service_1 = require("./comment.service");
 let CommentController = class CommentController {
-    constructor(invitationService) {
-        this.invitationService = invitationService;
+    constructor(commentService) {
+        this.commentService = commentService;
     }
     getComment(req) {
         return __awaiter(this, void 0, void 0, function* () {
-            return '';
+            var queryInfo = req.query;
+            if (queryInfo.c == 'info') {
+                var zanLog = yield this.commentService.getAllComment();
+                return {
+                    chatList: zanLog,
+                    chatNum: zanLog.length
+                };
+            }
+            return;
         });
     }
     create(res, user) {
@@ -42,7 +50,7 @@ let CommentController = class CommentController {
                 words: user.words,
                 time: new Date().getTime()
             };
-            yield this.invitationService.create(user);
+            yield this.commentService.create(user);
             res.status(common_1.HttpStatus.CREATED).send();
         });
     }

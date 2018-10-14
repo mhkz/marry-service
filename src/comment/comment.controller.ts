@@ -4,10 +4,19 @@ import { CommentService } from "./comment.service";
 
 @Controller('comment')
 export class CommentController {
-    constructor(private readonly invitationService: CommentService){}
+    constructor(private readonly commentService: CommentService){}
     @Get()
     async getComment (@Req() req) {
-      return '';
+      var queryInfo = req.query
+      if (queryInfo.c == 'info') {
+        var zanLog = await this.commentService.getAllComment();
+        return {
+          chatList: zanLog,
+          chatNum: zanLog.length
+        }
+      }
+
+      return ;
     }
 
     @Post()
@@ -20,7 +29,7 @@ export class CommentController {
           words: user.words,
           time: new Date().getTime()
         }
-        await this.invitationService.create(user);
+        await this.commentService.create(user);
         res.status(HttpStatus.CREATED).send();
     }
 }
