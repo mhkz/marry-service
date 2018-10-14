@@ -33,6 +33,10 @@ export class CommentController {
           }
           await this.commentService.create(comm);
           result.push(comm)
-         res.status(HttpStatus.CREATED).send(result);
+         res.status(HttpStatus.CREATED).send({
+           chatList: result,
+           chatNum: result.length,
+           msg: '已经收到您的祝福哟～'
+         });
     }
 }

@@ -54,7 +54,11 @@ let CommentController = class CommentController {
             };
             yield this.commentService.create(comm);
             result.push(comm);
-            res.status(common_1.HttpStatus.CREATED).send(result);
+            res.status(common_1.HttpStatus.CREATED).send({
+                chatList: result,
+                chatNum: result.length,
+                msg: '已经收到您的祝福哟～'
+            });
         });
     }
 };
