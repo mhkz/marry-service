@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.hmr.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.hmr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.hmr.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/map.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecosystem.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -108,7 +32,7 @@
         <counts>
           <entry key="gitingrone" value="1" />
           <entry key="js" value="8" />
-          <entry key="json" value="10" />
+          <entry key="json" value="11" />
           <entry key="md" value="2" />
           <entry key="sh" value="1" />
           <entry key="ts" value="132" />
@@ -116,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="10" />
+          <entry key="JSON" value="11" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="TypeScript" value="132" />
@@ -129,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="138" />
+          <entry key="json" value="145" />
           <entry key="sh" value="13" />
           <entry key="ts" value="4409" />
           <entry key="txt" value="1" />
@@ -137,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="138" />
+          <entry key="JSON" value="145" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="TypeScript" value="4409" />
         </counts>
@@ -208,10 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script.sh">
+        <entry file="file://$PROJECT_DIR$/ecosystem.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="117">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -267,7 +191,6 @@
         <option value="$PROJECT_DIR$/ormconfig.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/app.service.ts" />
-        <option value="$PROJECT_DIR$/ecosystem.json" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.module.ts" />
         <option value="$PROJECT_DIR$/src/utils/dateUtils.ts" />
         <option value="$PROJECT_DIR$/src/invitation/invitation.service.ts" />
@@ -285,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
         <option value="$PROJECT_DIR$/src/bless/bless.module.ts" />
         <option value="$PROJECT_DIR$/script.sh" />
+        <option value="$PROJECT_DIR$/ecosystem.json" />
       </list>
     </option>
   </component>
@@ -382,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48904000" />
+    <option name="totallyTimeSpent" value="49407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,6 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1335" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.178515" />
@@ -507,24 +432,10 @@
     <entry file="file://$PROJECT_DIR$/nodemon.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecosystem.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ormconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -683,7 +594,21 @@
     <entry file="file://$PROJECT_DIR$/script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecosystem.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
         </state>
       </provider>
     </entry>
