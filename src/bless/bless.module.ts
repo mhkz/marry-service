@@ -4,9 +4,10 @@ import {BlessController} from "./bless.controller";
 import {TypeOrmModule} from "@nestjs/typeorm";
 import {BlessEntity} from "./bless.entity";
 import { PhotoService } from '../photo/photo.service';
+import { PhotoEntity } from '../photo/photo.entity';
 
 @Module({
-    imports: [TypeOrmModule.forFeature([BlessEntity])],
+    imports: [TypeOrmModule.forFeature([BlessEntity, PhotoEntity])],
     providers: [BlessService, PhotoService],
     controllers: [BlessController]
 })

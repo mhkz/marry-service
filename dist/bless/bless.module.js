@@ -12,11 +12,12 @@ const bless_controller_1 = require("./bless.controller");
 const typeorm_1 = require("@nestjs/typeorm");
 const bless_entity_1 = require("./bless.entity");
 const photo_service_1 = require("../photo/photo.service");
+const photo_entity_1 = require("../photo/photo.entity");
 let BlessModule = class BlessModule {
 };
 BlessModule = __decorate([
     common_1.Module({
-        imports: [typeorm_1.TypeOrmModule.forFeature([bless_entity_1.BlessEntity])],
+        imports: [typeorm_1.TypeOrmModule.forFeature([bless_entity_1.BlessEntity, photo_entity_1.PhotoEntity])],
         providers: [bless_service_1.BlessService, photo_service_1.PhotoService],
         controllers: [bless_controller_1.BlessController]
     })
