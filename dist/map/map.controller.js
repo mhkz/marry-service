@@ -18,16 +18,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
+const invitation_service_1 = require("../invitation/invitation.service");
 let MapController = class MapController {
+    constructor(invitationService) {
+        this.invitationService = invitationService;
+    }
     getMapInfo() {
         return __awaiter(this, void 0, void 0, function* () {
             return {
-                lng: '32.10716069070984',
-                lat: '114.11952316761017',
-                title: '郭峰&李梦珠的小请柬',
-                thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg",
-                hotel: '高氏大酒店(平桥店)',
-                address: '信阳市平桥区平安大道'
+                mainInfo: yield this.invitationService.getAllUser()[0]
             };
         });
     }
@@ -39,7 +38,8 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], MapController.prototype, "getMapInfo", null);
 MapController = __decorate([
-    common_1.Controller('map')
+    common_1.Controller('map'),
+    __metadata("design:paramtypes", [invitation_service_1.InvitationService])
 ], MapController);
 exports.MapController = MapController;
 //# sourceMappingURL=map.controller.js.map

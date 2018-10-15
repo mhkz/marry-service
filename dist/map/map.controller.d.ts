@@ -1,10 +1,8 @@
+import { InvitationService } from '../invitation/invitation.service';
 export declare class MapController {
+    private readonly invitationService;
+    constructor(invitationService: InvitationService);
     getMapInfo(): Promise<{
-        lng: string;
-        lat: string;
-        title: string;
-        thumb: string;
-        hotel: string;
-        address: string;
+        mainInfo: any;
     }>;
 }
