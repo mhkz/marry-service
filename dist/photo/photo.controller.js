@@ -27,7 +27,7 @@ let PhotoController = class PhotoController {
         return __awaiter(this, void 0, void 0, function* () {
             return {
                 slideList: yield this.photoService.getAllPhoto(),
-                title: '郭峰&李梦珠的小请柬',
+                title: '我们结婚啦',
                 thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg"
             };
         });

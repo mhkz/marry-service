@@ -31,7 +31,9 @@ export class BlessController {
       res.status(HttpStatus.CREATED).send({
         zanLog: result,
         zanNum: result.length,
-        msg: '已经收到您的祝福哟～'
+        msg: '已经收到您的祝福哟～',
+        title: '我们结婚啦',
+        thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg"
       });
     }
 }
