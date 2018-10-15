@@ -6,6 +6,7 @@ import {InvitationModule} from "./invitation/invitation.module";
 import {BlessModule} from "./bless/bless.module";
 import {CommentModule} from "./comment/comment.module";
 import { PhotoModule } from './photo/photo.module';
+import { MapModule } from './map/map.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { PhotoModule } from './photo/photo.module';
       InvitationModule,
       BlessModule,
       PhotoModule,
+      MapModule,
       CommentModule
   ],
   controllers: [AppController],

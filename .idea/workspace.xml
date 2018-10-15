@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/photo/photo.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/map.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/map.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/map.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo/photo.service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo/photo.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo/photo.service.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,7 +38,7 @@
           <entry key="js" value="8" />
           <entry key="json" value="10" />
           <entry key="md" value="2" />
-          <entry key="ts" value="120" />
+          <entry key="ts" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,7 +46,7 @@
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="TypeScript" value="120" />
+          <entry key="TypeScript" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -61,7 +57,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
-          <entry key="ts" value="4158" />
+          <entry key="ts" value="4210" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -69,7 +65,7 @@
         <counts>
           <entry key="JSON" value="138" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="4158" />
+          <entry key="TypeScript" value="4210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -90,36 +86,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bless/bless.service.ts">
+        <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="12" column="16" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="13" column="3" lean-forward="true" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/photo/photo.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
+        <entry file="file://$PROJECT_DIR$/src/map/map.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="62">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/map/map.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/map/map.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <element signature="e#0#76#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/photo/photo.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="9" column="30" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -173,8 +171,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="178">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,9 +228,12 @@
         <option value="$PROJECT_DIR$/src/bless/bless.controller.ts" />
         <option value="$PROJECT_DIR$/src/photo/photo.service.ts" />
         <option value="$PROJECT_DIR$/src/photo/photo.module.ts" />
-        <option value="$PROJECT_DIR$/src/app.module.ts" />
         <option value="$PROJECT_DIR$/src/photo/photo.entity.ts" />
         <option value="$PROJECT_DIR$/src/photo/photo.controller.ts" />
+        <option value="$PROJECT_DIR$/src/map/map.service.ts" />
+        <option value="$PROJECT_DIR$/src/map/map.controller.ts" />
+        <option value="$PROJECT_DIR$/src/map/map.module.ts" />
+        <option value="$PROJECT_DIR$/src/app.module.ts" />
       </list>
     </option>
   </component>
@@ -275,7 +279,7 @@
               <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="marry-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bless" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +335,7 @@
       <workItem from="1539251217009" duration="167000" />
       <workItem from="1539254940000" duration="4427000" />
       <workItem from="1539315376456" duration="3700000" />
-      <workItem from="1539340011004" duration="10484000" />
+      <workItem from="1539340011004" duration="11426000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -344,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44373000" />
+    <option name="totallyTimeSpent" value="45315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +363,7 @@
     <frame x="52" y="23" width="1335" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.27853882" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.178515" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.178515" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,7 +374,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.26536313" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.5111732" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -639,10 +643,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/photo/photo.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/map.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="3" lean-forward="true" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/photo/photo.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="234">
+          <caret line="9" column="30" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -651,25 +675,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/photo/photo.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="178">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
-            <element signature="e#0#76#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/map.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/map.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
