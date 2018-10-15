@@ -24,9 +24,11 @@ const common_1 = require("@nestjs/common");
 const bless_entity_1 = require("./bless.entity");
 const bless_service_1 = require("./bless.service");
 const dateUtils_1 = require("../utils/dateUtils");
+const photo_service_1 = require("../photo/photo.service");
 let BlessController = class BlessController {
-    constructor(blessService) {
+    constructor(blessService, photoService) {
         this.blessService = blessService;
+        this.photoService = photoService;
     }
     getInvitation() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -34,6 +36,9 @@ let BlessController = class BlessController {
             return {
                 zanLog: zanLogList,
                 zanNum: zanLogList.length,
+                slideList: yield this.photoService.getAllPhoto(),
+                title: '我们结婚啦',
+                thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg"
             };
         });
     }
@@ -54,6 +59,7 @@ let BlessController = class BlessController {
                 zanLog: result,
                 zanNum: result.length,
                 msg: '已经收到您的祝福哟～',
+                slideList: yield this.photoService.getAllPhoto(),
                 title: '我们结婚啦',
                 thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg"
             });
@@ -75,7 +81,8 @@ __decorate([
 ], BlessController.prototype, "create", null);
 BlessController = __decorate([
     common_1.Controller('bless'),
-    __metadata("design:paramtypes", [bless_service_1.BlessService])
+    __metadata("design:paramtypes", [bless_service_1.BlessService,
+        photo_service_1.PhotoService])
 ], BlessController);
 exports.BlessController = BlessController;
 //# sourceMappingURL=bless.controller.js.map

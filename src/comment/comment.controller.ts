@@ -11,7 +11,9 @@ export class CommentController {
       var zanLog = await this.commentService.getAllComment();
       return {
         chatList: zanLog,
-        chatNum: zanLog.length
+        chatNum: zanLog.length,
+        title: '我们结婚啦',
+        thumb: "https://marrylmz.oss-cn-beijing.aliyuncs.com/photo/IMG_20171105_110704_HDR.jpg"
       }
     }
 

@@ -5,7 +5,7 @@ import { PhotoService } from "./photo.service";
 export class PhotoController {
   constructor(private readonly photoService: PhotoService){}
   @Get()
-  async getInvitation () {
+  async getPhotos () {
       return {
         slideList: await this.photoService.getAllPhoto(),
         title: '我们结婚啦',

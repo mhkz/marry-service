@@ -23,7 +23,7 @@ let PhotoController = class PhotoController {
     constructor(photoService) {
         this.photoService = photoService;
     }
-    getInvitation() {
+    getPhotos() {
         return __awaiter(this, void 0, void 0, function* () {
             return {
                 slideList: yield this.photoService.getAllPhoto(),
@@ -38,7 +38,7 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
-], PhotoController.prototype, "getInvitation", null);
+], PhotoController.prototype, "getPhotos", null);
 PhotoController = __decorate([
     common_1.Controller('photo'),
     __metadata("design:paramtypes", [photo_service_1.PhotoService])

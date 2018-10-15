@@ -6,6 +6,8 @@ export declare class CommentController {
     getComment(req: any): Promise<{
         chatList: CommentEntity[];
         chatNum: number;
+        title: string;
+        thumb: string;
     }>;
     create(res: any, commentInfo: CommentEntity): Promise<void>;
 }
