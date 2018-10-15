@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "marry",
+    "name": "npm -- start",
     "script": "dist/server.js",
     "env": {
       "COMMON_VARIABLE": "true"

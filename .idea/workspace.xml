@@ -2,7 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bless/bless.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bless/bless.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.entity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bless/bless.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.entity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/comment/comment.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.entity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/invitation/invitation.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.hmr.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.hmr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.hmr.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/map/map.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.entity.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo/photo.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/dateUtils.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,6 +110,7 @@
           <entry key="js" value="8" />
           <entry key="json" value="10" />
           <entry key="md" value="2" />
+          <entry key="sh" value="1" />
           <entry key="ts" value="132" />
         </counts>
       </usages-collector>
@@ -41,7 +118,7 @@
         <counts>
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="TypeScript" value="132" />
         </counts>
       </usages-collector>
@@ -53,6 +130,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="138" />
+          <entry key="sh" value="13" />
           <entry key="ts" value="4409" />
           <entry key="txt" value="1" />
         </counts>
@@ -60,7 +138,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="138" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="TypeScript" value="4409" />
         </counts>
       </usages-collector>
@@ -75,32 +153,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1574">
-              <caret line="11" column="66" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="66" />
+            <state relative-caret-position="-278">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
-                <element signature="e#0#83#0" expanded="true" />
+                <element signature="e#0#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bless/bless.service.ts">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="12" column="16" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bless/bless.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="16" lean-forward="true" selection-end-line="16" />
+            <state relative-caret-position="702">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -108,74 +174,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="11" selection-end-column="95" />
+            <state relative-caret-position="20">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/comment/comment.service.ts">
+        <entry file="file://$PROJECT_DIR$/src/utils/dateUtils.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-435">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/invitation/invitation.service.ts">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="86">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bless/bless.module.ts">
+        <entry file="file://$PROJECT_DIR$/script.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="26">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/invitation/invitation.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/nest-cli.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/comment/comment.controller.ts">
+        <entry file="file://$PROJECT_DIR$/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bless/bless.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="26">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -234,6 +284,7 @@
         <option value="$PROJECT_DIR$/src/bless/bless.controller.ts" />
         <option value="$PROJECT_DIR$/src/comment/comment.controller.ts" />
         <option value="$PROJECT_DIR$/src/bless/bless.module.ts" />
+        <option value="$PROJECT_DIR$/script.sh" />
       </list>
     </option>
   </component>
@@ -269,29 +320,6 @@
             <path>
               <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="marry-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marry-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marry-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bless" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marry-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marry-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marry-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="invitation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +382,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48428000" />
+    <option name="totallyTimeSpent" value="48904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +407,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921012" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.33659217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541932" visible="true" weight="0.58938545" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045807" side_tool="true" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" sideWeight="0.49682876" weight="0.28333333" />
@@ -470,8 +498,8 @@
     <entry file="file://$PROJECT_DIR$/dist/dist/app.controller.d.ts" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="86">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -495,15 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="124">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="702">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -519,19 +547,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/dateUtils.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="-435">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comment/comment.module.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="30" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,29 +590,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/map.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/map.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/map.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/map.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/map/map.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/map/map.controller.ts" />
     <entry file="file://$PROJECT_DIR$/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -605,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,16 +611,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="12" column="16" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/photo/photo.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="11" selection-end-column="95" />
+        <state relative-caret-position="20">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -632,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,10 +644,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/invitation/invitation.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1574">
-          <caret line="11" column="66" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="-278">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
-            <element signature="e#0#83#0" expanded="true" />
+            <element signature="e#0#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +677,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
