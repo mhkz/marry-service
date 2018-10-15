@@ -13,6 +13,7 @@ const typeorm_1 = require("@nestjs/typeorm");
 const invitation_module_1 = require("./invitation/invitation.module");
 const bless_module_1 = require("./bless/bless.module");
 const comment_module_1 = require("./comment/comment.module");
+const photo_module_1 = require("./photo/photo.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -21,6 +22,7 @@ AppModule = __decorate([
             typeorm_1.TypeOrmModule.forRoot(),
             invitation_module_1.InvitationModule,
             bless_module_1.BlessModule,
+            photo_module_1.PhotoModule,
             comment_module_1.CommentModule
         ],
         controllers: [app_controller_1.AppController],
