@@ -1,9 +1,9 @@
 {
     "type": "mysql",
-    "host": "132.232.90.109",
+    "host": "132.232.2.106",
     "port": 3306,
-    "username": "marry",
-    "password": "guofeng2018",
+    "username": "root",
+    "password": "123456",
     "database": "marry",
     "entities": ["src/**/**.entity{.ts,.js}"],
     "synchronize": true

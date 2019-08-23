@@ -12,7 +12,7 @@
   "deploy": {
     "production": {
       "user": "root",
-      "host": ["47.95.7.29"],
+      "host": ["132.232.2.106"],
       "port": "22",
       "ref": "origin/master",
       "repo": "https://github.com/mhkz/marry-service.git",
