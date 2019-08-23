@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90dbe884-adbb-40ab-b427-7e3d8a2f87d4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -198,7 +196,7 @@
       <workItem from="1539340011004" duration="11488000" />
       <workItem from="1539570415474" duration="3051000" />
       <workItem from="1551151520609" duration="1606000" />
-      <workItem from="1566463887987" duration="3139000" />
+      <workItem from="1566463887987" duration="3380000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1539079019560</created>
@@ -214,11 +212,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566548889908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1566549222674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566549222674</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54152000" />
+    <option name="totallyTimeSpent" value="54393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,9 +302,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
