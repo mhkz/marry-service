@@ -12,6 +12,8 @@ var AppController = /** @class */ (function () {
         this.appService = appService;
     }
     AppController.prototype.root = function () {
+        console.log("呵呵");
+        return "Hello World";
         return this.appService.root();
     };
     __decorate([
