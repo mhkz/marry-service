@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^5.1.0",
-    "@nestjs/core": "^5.1.0",
+    "@nestjs/core": "^9.2.1",
     "@nestjs/typeorm": "^5.2.2",
     "mysql": "^2.16.0",
     "reflect-metadata": "^0.1.12",
